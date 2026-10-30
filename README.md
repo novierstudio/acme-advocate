@@ -18,7 +18,7 @@ for entrances, the accordions and the disclaimer.
   fallback. Routes are listed in `src/pages/Page.tsx`; menu and footer links in `src/data/site.ts`.
 - **Per-person links** — the mockup is shared by putting a name after the site's address:
   `/mehta-chambers` shows "Mehta Chambers" in the curtain, header, tab title, footer wordmark and About copy
-  (`src/lib/brand.ts`). No name falls back to Acme Chambers. Hosts must serve `index.html` for any path: 
+  (`src/lib/brand.ts`). No name falls back to Acme Chambers. Hosts must serve `index.html` for any path: the
   deploy script copies it to `404.html` for GitHub Pages, and `vercel.json` covers Vercel. Pages carry
   `noindex` so the mockups stay out of search results.
 - **Curtain** — plays once when the site is opened or reloaded on the home page; the disclaimer follows it.
